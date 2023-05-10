@@ -36,3 +36,16 @@
     transform: rotate(360deg);
   }
 }
+
+body {
+  background-color: #000000;
+  margin: 0px;
+  overflow: hidden;
+  background-image: url(http://natewren.com/themes/wallpaper2/radpack/radpack_4.jpg);
+  background-size: cover;
+  background-position: top center;
+}
+.app {
+  width: 100%;
+  height: auto;
+}
