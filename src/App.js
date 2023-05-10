@@ -2,19 +2,27 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import NavBar from './components/NavBar/NavBar';
-import aboutMe from './pages/aboutMe/aboutMe'
+import AboutMe from './pages/aboutMe/aboutMe'
 
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 
 function App() {
   return (
+    <div>
+
+  
+     <NavBar />
+
     <Router>
-      <NavBar />
-      <Route exact path="/">
-        <aboutMe />
-      </Route>
+     <Routes>
+        <Route path="/" element={<AboutMe/>}/>
+     </Routes>
+    
+     
       </Router>
+
+        </div>
   );
 }
 
