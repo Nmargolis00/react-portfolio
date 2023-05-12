@@ -1,0 +1,19 @@
+.input-field{
+width: 25%;
+}
+
+.contact-container{
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    margin-top: -50px;
+    margin-left: -50px;
+    width: 100%;
+    height: 5%;
+    
+}
+
+.contact-title{
+    color: #ccff15
+}
+
