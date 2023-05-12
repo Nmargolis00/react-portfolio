@@ -4,6 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import NavBar from './components/NavBar/NavBar';
 import AboutMe from './pages/aboutMe/aboutMe'
 
+
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 
@@ -18,9 +19,9 @@ function App() {
      <Routes>
         <Route path="/" element={<AboutMe/>}/>
      </Routes>
-    
-     
+  
       </Router>
+   
 
         </div>
   );

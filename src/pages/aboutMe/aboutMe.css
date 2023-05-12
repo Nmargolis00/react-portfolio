@@ -1,3 +1,16 @@
-.about{
-    font: white;
+.about-container{
+    border: 5px red solid;
+    width: 50%
+}
+
+.photo{
+    align-items: self-start;
+}
+
+.bioText{
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font: rgb(238, 238, 29) important!;
 }

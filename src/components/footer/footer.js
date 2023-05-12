@@ -13,9 +13,9 @@ export default function footer() {
     <Box sx={{ width: 500 }}>
       <BottomNavigation
         showLabels
-        value={value}
+        // value={value}
         onChange={(event, newValue) => {
-          setValue(newValue);
+        //   setValue(newValue);
         }}
       >
         <BottomNavigationAction label="GitHub" icon={<GitHubIcon />} />
