@@ -1,0 +1,23 @@
+.footer-div{
+    position: fixed;
+    bottom: 0;
+    background-color: #282c34;
+    width: 100%;
+}
+
+/* .footer{
+    background-color: #282c34;
+} */
+
+.footer-div .icon{
+    color:aqua;
+    background-color: #282c34;
+}
+
+.copy-right{
+    color: aqua;
+    font-size: 12px;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}

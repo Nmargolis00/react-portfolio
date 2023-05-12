@@ -9,7 +9,7 @@ function NavBar() {
   return (
     <Navbar bg="dark" variant="dark" expand="lg">
       <Container>
-        <Navbar.Brand className="navBar" href="#home">Nate Margolis</Navbar.Brand>
+        <Navbar.Brand className="navBar" href="/">Nate Margolis</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
