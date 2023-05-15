@@ -65,7 +65,7 @@ const Portfolio = () => {
           style={{ maxHeight: 'calc(100vh - 150px)', overflowY: 'auto' }}
         >
           {projects.map((project, index) => (
-            <Card key={index} style={{ width: '18rem' }}>
+            <Card key={index} style={{ width: '22rem' }}>
               <Card.Img className="w-full h-60 object-cover" src={project.image} alt={projects.name} />
               <Card.Body>
                 <Card.Title>{project.name}</Card.Title>
