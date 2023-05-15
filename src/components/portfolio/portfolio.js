@@ -66,7 +66,7 @@ const Portfolio = () => {
         >
           {projects.map((project, index) => (
             <Card key={index} style={{ width: '18rem' }}>
-              <Card.Img className="w-full h-60 object-cover" src={projects.image} alt={projects.name} />
+              <Card.Img className="w-full h-60 object-cover" src={project.image} alt={projects.name} />
               <Card.Body>
                 <Card.Title>{project.name}</Card.Title>
                 <Card.Text>{project.description}</Card.Text>
