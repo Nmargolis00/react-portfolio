@@ -1,0 +1,12 @@
+.btn{
+    width: 200px;
+    margin: 5px;
+}
+
+.main-div{
+    height: 80vh;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    ;
+}
