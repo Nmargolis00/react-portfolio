@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./contact.css";
 import { validateEmail } from "../../utils/helper";
 
-// const FORM_ENDPOINT = ""; 
+
 
 const Contact = () => {
   const [submitted, setSubmitted] = useState(false);
@@ -34,7 +34,7 @@ const Contact = () => {
     <div className="contact-container">
         <h1 className="contact-title">Let's get in touch!</h1>
     <form
-      // action={FORM_ENDPOINT}
+      // action=API call to send an email
       onSubmit={handleSubmit}
       method="POST"
       target="_blank"
