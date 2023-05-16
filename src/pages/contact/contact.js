@@ -1,16 +1,26 @@
 import React, { useState } from "react";
 import "./contact.css";
+import { validateEmail } from "../../utils/helper";
 
-const FORM_ENDPOINT = ""; // TODO - fill on the later step
+// const FORM_ENDPOINT = ""; 
 
 const Contact = () => {
   const [submitted, setSubmitted] = useState(false);
-  const handleSubmit = () => {
-    setTimeout(() => {
-      setSubmitted(true);
-    }, 100);
-  };
 
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+    const emailInput = e.target.elements.email.value;
+    if (!validateEmail(emailInput)) {
+      alert("Please enter a valid email address.");
+      return;
+    } else {
+      setTimeout(() => {
+        setSubmitted(true);
+      }, 100);
+    }
+  };
+  
   if (submitted) {
     return (
       <>
@@ -24,7 +34,7 @@ const Contact = () => {
     <div className="contact-container">
         <h1 className="contact-title">Let's get in touch!</h1>
     <form
-      action={FORM_ENDPOINT}
+      // action={FORM_ENDPOINT}
       onSubmit={handleSubmit}
       method="POST"
       target="_blank"
