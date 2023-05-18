@@ -6,8 +6,9 @@ import AboutMe from './pages/aboutMe/aboutMe';
 import Footer from './components/footer/footer';
 import Contact from './pages/contact/contact';
 import Portfolio from '../src/components/portfolio/portfolio';
+// import { useState } from 'react';
 
-
+//Make this conditional rendering instead of the BrowserRouter
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 
