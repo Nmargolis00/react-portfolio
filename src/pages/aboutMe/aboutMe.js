@@ -20,7 +20,7 @@ const AboutMe = () => {
             <Typography>
               <h1>About Me</h1>
               <p className="about-para">
-             My name is Nate Margolis and I am a Full Stack Developer.. I have an undergraduate degree in Chemistry and a Master's in Material Science Engineering. I have written multiple scientific papers, conducted processing design of experiments to optimize material performance and most recently helped to implement a regrind initiative to drastically reduce virgin plastic consumption. 
+             TEST My name is Nate Margolis and I am a Full Stack Developer. I have an undergraduate degree in Chemistry and a Master's in Material Science Engineering. I have written multiple scientific papers, conducted processing design of experiments to optimize material performance and most recently helped to implement a regrind initiative to drastically reduce virgin plastic consumption. 
               </p>
               <br></br>
               <p className="about-para">
