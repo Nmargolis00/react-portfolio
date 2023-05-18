@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.a58c8d44.css",
+    "main.js": "/react-portfolio/static/js/main.e13edf10.js",
+    "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
+    "static/media/fog.jpg": "/react-portfolio/static/media/fog.26bf1f5176c55793aeff.jpg",
+    "static/media/imageAi.jpg": "/react-portfolio/static/media/imageAi.e8dfa5b01cd1cd173ed6.jpg",
+    "static/media/concert.jpg": "/react-portfolio/static/media/concert.cb6af60b3365b75efeb0.jpg",
+    "static/media/Family Photo.jpg": "/react-portfolio/static/media/Family Photo.2efad6279c4ce8812ef7.jpg",
+    "static/media/text.jpg": "/react-portfolio/static/media/text.7dbdabf77aa5d7b462b7.jpg",
+    "static/media/planner.jpg": "/react-portfolio/static/media/planner.79d9a1c2b9cc40aa736c.jpg",
+    "static/media/passwordImage.jpg": "/react-portfolio/static/media/passwordImage.13b90f1759492830453b.jpg",
+    "index.html": "/react-portfolio/index.html",
+    "main.a58c8d44.css.map": "/react-portfolio/static/css/main.a58c8d44.css.map",
+    "main.e13edf10.js.map": "/react-portfolio/static/js/main.e13edf10.js.map",
+    "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a58c8d44.css",
+    "static/js/main.e13edf10.js"
+  ]
+}
