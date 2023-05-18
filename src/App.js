@@ -20,9 +20,9 @@ function App() {
 
     <Router>
      <Routes>
-        <Route path="/" element={<AboutMe/>}/>
-        <Route path="/contact" element={<Contact/>}/>
-        <Route path="/portfolio" element={<Portfolio/>}/>
+        <Route path="/react-profile" element={<AboutMe/>}/>
+        <Route path="/react-portfolio/contact" element={<Contact/>}/>
+        <Route path="/react-portfolio/portfolio" element={<Portfolio/>}/>
      </Routes>
   
       </Router>
